@@ -1,0 +1,1092 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+p{
+    margin-bottom: 20px;
+}
+ 
+    /* -------------------------------------- Navbar section ----------------------------------  */
+
+.navbar-section{
+    background-color: white;
+    /* padding: 30px; */
+}
+#nav-logo{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 45%;
+    height: 50%;
+}
+#top-nav{
+    padding: 10px;
+}
+.dropdown-toggle::after {
+    display: none;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.navbar-toggler{
+    width: 30px;
+    height: 20px;
+    position: relative;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    border: 0;
+    box-shadow: none;
+}
+.navbar-toggler span{
+    margin: 0;
+    padding: 0;
+}
+.toggler-icon{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #000;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+
+
+}
+.middle-bar{
+    margin: 0;
+}
+ /* when click on the navbar icon then rotate just like "X"  */
+ .top-bar{
+    margin-top: 0;
+    transform: rotate(135deg);
+ }
+ .middle-bar{
+    opacity: 0;
+    filter: alph(opacity=0);
+ }
+ .bottom-bar{
+    margin-top: 0;
+    transform: rotate(-135deg);
+ }
+#top-nav li a{
+    color: #17449e !important;
+    padding: 10px;
+    font-size: 16px;
+}
+ /* after the collapse the navbar  */
+
+ .navbar-toggler.collapsed .top-bar{
+    margin-top: -15px;
+    transform: rotate(0deg);
+ }
+ .navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alph(opacity = 0);
+ }
+ .navbar-toggler.collapsed .bottom-bar{
+    margin-top: 15px;
+    transform: rotate(0deg);
+ }
+
+
+.nav-link:hover{
+    border-bottom: 3px solid #606060;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#contact-btn{
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #DA2315;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+#seach-icon{
+    font-size: 29px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Optionally adjust the position as needed */
+  }
+  .dropdown-menu.show {
+    display: none !important;
+}
+ 
+@media screen and (min-width : 320px) and (max-width : 992px){
+    .navbar-brand{
+        width: 30%;
+    }
+}
+@media screen and (min-width : 320px) and (max-width : 992px){
+#top-nav-id{
+    display: none;
+}
+
+}
+
+
+/* ----------------------------------- hero section ---------------------------------------------------- */
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.carousel-item img{
+    width: 100%;
+    height: 90vh;  
+}
+
+#emergencey-service{
+    width: 86%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #17449e;
+    color: white;
+    position: absolute;
+    bottom: -22%;
+    left: 7%;
+    margin-bottom: 30px;
+}
+.welcome-text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #000;
+}
+.emergencey-left{
+    padding-left: 15px;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 180px;
+}
+.logo h3{
+    color: #1c4cad;
+}
+#counter-section{
+    
+    background-color: #1c4cad;
+    width: 90%;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    padding: 80px 20px;
+    margin-top: 30px;
+   position: absolute;
+   top: -40%;
+   left: 5%;
+}
+@media screen and (min-width : 320px) and (max-width : 768px){
+    #emergencey-service{
+        width: 100%;
+        bottom: -40%;
+        left: 0;
+    }
+}
+
+ /* ----------------------------------------------- Our services -------------------------------------- */
+
+.our-services{
+    margin-top: 200px !important;
+}
+.services-heading{
+    color: #113377;
+}
+.our-services-para{
+    font-style: italic;
+}
+
+.counter-hospital-common{
+    position: relative;
+    margin-top: 300px;
+}
+
+/* ---------------------------------------- about doctors hospital  -------------------------------  */
+
+.about-hospital{
+    background-color: #e6e6e6;
+}
+.about-left{
+    padding-right: 20px;
+    /* padding: 175px 60px 55px 0px; */
+}
+.about-heading p{
+    color: #6b9cff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.about-heading h1{
+    color: #17449e;
+}
+.about-dhmc img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.about-dhmc-text h3{
+    color: #17449e;
+}
+
+a{
+    text-decoration: none;
+  
+}
+.about-dhmc a{
+    text-decoration: none;
+    color: #113377;
+}
+.about-dhmc-text p{
+ line-height: 1.7;
+ margin-bottom: 20px;
+ font-size: 17px;
+ color: #797979;
+ /* font-family: Montserrat, Times !important; */
+
+}
+.about-img img{
+    height: 90vh;
+}
+
+/* -------------------------------- health section ---------------------------------------- */
+.health-text{
+    padding-top: 30px;
+}
+.health-text h1{
+    color: #1c4ca5;
+    font-weight: 700;
+    font-size: 40px;
+}
+.health-text h3{
+    color: #1c4ca5;
+    font-size: 26px;
+    font-weight: 600;
+}
+.health-text p{
+    color: #555555;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.health-text a{
+    font-size: 18px;
+    color: #17449e;
+}
+
+.at-lahore-text{
+    display: flex;
+    flex-direction: column;
+    padding: 20% 10px;
+    justify-content: center;
+    text-align: left;
+}
+.at-lahore-text h2{
+    color: #1c4ca5;
+    font-weight: 700;
+    text-align: left;
+}
+.at-lahore-text p{
+    line-height: 1.7;
+    font-size: 20px;
+}
+
+
+.card{
+    padding: 50px 10px;
+    border-radius: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+p{
+    line-height: 1.7;
+   
+}
+.card-text{
+    font-size: 17px;
+    color: #ccd7ec;
+    font-weight: 400;
+}
+.card-title{
+    margin: 20px 0px;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 20px;
+}
+#card1{
+    background-color: #113377;
+}
+.news{
+    background-color: #000;
+}
+#subscrib-section{
+    background-color: #285fba;
+    padding: 70px 10px;
+    color: white;
+}
+.subscrib{
+  
+   padding-left: 20px;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+.form-group input{
+    padding: 15px;
+    width: 400px;
+}
+.form-group button{
+    padding: 15px 15px;
+    margin-left: 10px;
+}
+
+#logo-details{
+    width: 23%;
+    height: auto;
+    margin-left: 10px;
+}
+
+
+/* ------------------------------------------ Our Hospital Details ----------------------------------- */
+.our-details{
+    background-color: #f6f6f6;
+}
+.about-our-details p{
+    line-height: 1.7;
+    color: #919191;
+}
+.about-our-details h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #020202 !important;
+    letter-spacing: -1px;
+    margin-bottom: 27px;
+}
+
+.our-services-details h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #020202 !important;
+    letter-spacing: -1px;
+    margin-bottom: 27px;
+}
+.our-services-details ul li{
+    line-height: 1.7;
+    font-size: 17px;
+}
+.our-services-details ul li a{
+    color: #919191;
+}
+.contact-details p{
+    color: #919191;
+}
+.contact-details h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #020202 !important;
+    letter-spacing: -1px;
+    margin-bottom: 27px;
+}
+.social-details ul li:nth-last-child(-n+3){
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #113377;
+}
+.social-details ul li:first-child{
+    margin-top: 10px;
+    color: #113377;
+}
+.social-details ul li a{
+    color: #113377;
+}
+.quick-links h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #020202 !important;
+    letter-spacing: -1px;
+    margin-bottom: 27px;
+}
+.quick-links ul li {
+    line-height: 1.7;
+    font-size: 18px;
+}
+.quick-links ul li a{
+    color: #919191;
+}
+
+
+/* ----------------------------- "WHo Are You" About Doctors --------------------------- */
+
+.footer{
+    background-color:  #282828;
+}
+.footer-div p{
+    /* color: #afafaf; */
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-top: 12px solid rgba(189,9,220,0.87)
+}
+
+.about-doctor{
+    background-color: #3259a8;
+    text-align: left;
+    padding: 100px 0px 60px 0px ;
+}
+.about-doctor-left h3{
+    color: #ffffff;
+    font-size: 49px;
+}
+.about-doctor-left p{
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    
+    color: #e2ebff;
+}
+.about-doctor-right .p1{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 25px;
+    line-height: 2;
+}
+.about-doctor-right .p2{
+    color: #a0cbff;
+    font-size: 17px;
+    text-transform: none;
+    padding-bottom: 25px;
+}
+/* ----------------------------------------DHMC about service ----------------------------------- */
+.DHMC-about-service{
+    padding-top: 92px;
+}
+.dhmc-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dhmc-left img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px ;
+}
+.dhmc-right h1{
+    color: #1c4ca5;
+    font-size: 36px;
+    font-weight: 600;
+}
+.dhmc-right h3{
+    color: #1c4ca5;
+    font-size: 29px;
+    font-weight: 600;
+}
+.dhmc-right .para1{
+    margin-bottom: 20px;
+    color: #555555;
+    font-size: 17px;
+}
+.dhmc-right .para1 span{
+    color: #1c4ca5;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+.dhmc-right .para2{
+    color: #555555;
+    font-size: 17px;
+}
+/* -----------------------------------------------DHMC Moving section ------------------------- ---- */
+.dhmc-moving{
+    padding: 50px 0px 30px 0px;
+}
+.dhmc-moving-left h1{
+    color: #1c4ca5;
+    font-size: 36px;
+    font-weight: 600;
+}
+.dhmc-moving-left h3{
+    font-size: 26px;
+    color: #1c4ca5;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.dhmc-moving-left .p1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #17449e;
+}
+.dhmc-moving-left .p2{
+    color: #5f5f5f;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.center-div{
+    width: 70%;
+    margin: 0 auto;
+}
+.moving-last-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.moving-last-text h2{
+    font-size: 40px;
+    color: #1c4ca5;
+    font-weight: 700;
+}
+.moving-last-text p{
+    font-size: 18px;
+    color: #757575;
+    margin-top: 15px;
+}
+
+/* -------------------------------------------patients cared and procedure annually -------------------- */
+
+.patient-cared{
+    background-color: #2c65bf;
+    text-align: center;
+    padding: 80px 0px 70px 0px;
+
+}
+.care-procedure{
+    font-size: 20px;
+    color: #a9d0ff;
+    font-weight: 500;
+}
+.care{
+    font-size: 39px;
+    font-weight: 700;
+    color: white;
+}
+.learn-more-about{
+    padding: 12px 21px 12px 27px;
+    background: #4d93e9;
+    display: inline-block;
+    margin-top: 30px;
+}
+.dhmc-approaches a{
+    color: #ffffff ;
+    font-size: 16px;
+}
+.plus{
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+/* ------------------------------------------ Mision, Vision & Value ------------------------------------ */
+
+.main-mision{
+    position: relative;
+}
+.mission-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.mission-text h3{
+    font-size: 65px;
+    font-weight: 600;
+}
+.mision{
+    width: 100%;
+    height: 200vh;
+}
+#missionandvision{
+    position: relative;
+    /* overflow: hidden; */
+}
+.mission2{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    top: 90%;
+    left: 5%;
+    position: absolute; 
+    background-color: white;
+  
+}
+.mission2-text{
+    padding: 73px 45px 70px 50px;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
+    background-color: white;
+
+}
+.mission2-text h3{
+    padding-left: 40px;
+}
+.mission2-text p{
+    position: relative;
+    padding-left: 40px;
+    font-size: 14px;
+   
+}
+.mission2-text p::after{
+    content: "\f192";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400; 
+    position: absolute;
+    left: 0;
+    top: 0.1em; 
+    font-size: 0.9em;
+    color: #4d93e9;
+}
+
+/* --------------------------------------  Vision section ---------------------------------------- */
+
+.vision-text h1{
+    color: rgb(28, 76, 165);
+    font-size: 49px;
+    font-weight: 800;
+ }
+ .vision-text p{
+    font-size: 18px;
+    color: #606060;
+    font-weight: 400;
+    letter-spacing: 1px;
+ }
+ .vision-left{
+    background-color: #17449e;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* line-height: 66px; */
+    font-size: 36px;
+    font-weight: 500;
+    padding: 0px 60px;
+    /* letter-spacing: 1px; */
+ }
+ .vision-left h3{
+    line-height: 66px;
+ }
+
+/* ----------------------------------------Value section ---------------------------------------- */
+.value-text h1{
+    color: rgb(28, 76, 165);
+    font-size: 49px;
+    font-weight: 600;
+}
+.value-text p{
+    font-size: 18px;
+    color: #606060;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.card-main2{
+    display: flex;
+    color: #000 !important;
+    padding-bottom: 50px;
+}
+#card2{
+    color: #000;
+    width: 300px;
+    height: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 10px;
+    box-shadow: 0px 0px 30px rgba(209, 204, 204, 0.2);
+    text-align: center;
+    border-radius: 5px;
+}
+#card-body1{
+    padding-top: 0%;
+}
+#card-title1{
+    color: #1c4cad;
+
+}
+#card-text1{
+    color: #817d79;
+}
+
+/* ---------------------------------------CEO Message ----------------------------------------------------- */
+
+.main-ceo{
+    position: relative;
+}
+.ceo-message-heading{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    color: white;
+    font-size: 65px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+}
+.ceo-message{
+    background-image: url('/images/box-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.ceo-message p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.ceo2-img img{
+    width: 100%;
+    height: 155vh;
+}
+
+#ceo-divs{
+    position: relative;
+    height: 182.3vh;
+    overflow: hidden;
+
+}
+.ceo-message2{
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+.ceo-img-div img{
+    height: 300px;
+    width: 100%;
+}
+
+/* -------------------------------------------- chair Message ------------------------------------------ */
+
+.main-chair{
+    position: relative;
+}
+.chair-heading{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: white;
+    /* font-family: 'poppine' 'sens-serif'; */
+    font-weight: 1000;
+    font-size: 65px;
+}
+.chair-img img{
+    height: 300px;
+    width: 100%;
+}
+#main-chair1{
+    position: relative;
+    height: 183vh;
+    overflow: hidden;
+}
+.main-chair2{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    /* padding: 25px 20px; */
+    /* height: 147vh; */
+    /* height: 961.891px; */
+    /* overflow: hidden; */
+    width: 100%;
+    /* padding-left: 0; */
+    /* padding-right: 0%; */
+}
+.chair-text2{
+    background-image: url("/images/box-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px 25px;
+    
+}
+.chair-img2 img{
+    width: 100%;
+    height: 156.4vh;
+    /* height: 961.891px; */
+}
+
+/* -------------------------------------------- Executive section ----------------------------------------- */
+
+.mian-executive{
+    position: relative;
+}
+.executive-heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+.executive-img img{
+    height: 250px;
+    width: 100%;
+}
+.text-leader{
+    padding: 10px;
+}
+.text-leader h3{
+    color: #17449e;
+    font-weight: 700;
+}
+.text-leader p{
+    font-size: 20px;
+    color: #17449e;
+    font-weight: 400;
+}
+.ceo-summary{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 35px;
+    padding: 40px;
+}
+.container-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+.ceo-summary p i{
+    font-size: 65px;
+    color: #17449e;
+}
+.text-dr-sarwar h3{
+    color: #17449e;
+    font-size: 21px;
+    font-weight: 700;
+}
+.text-dr-sarwar p{
+    font-weight: 400;
+    color: #17449e;
+    font-size: 15px;
+}
+
+/* ------------------------------------- Doctor Hospital Management Team ---------------------------  */
+
+#doctor-card1{
+    padding: 0%;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #b5757259;
+    width: 100%;
+    height: auto;
+    /* margin-left: 30px; */
+}
+
+.doctor-card img{
+    width: 100%;
+    height: 400px;
+}
+.doctor-card-title{
+    padding: 30px;
+    text-align: center;
+    font-size: 21px;
+    color: #17449e;
+    font-weight: 600;
+}
+.doctor-card-main1{
+    width: 70%;
+    /* margin-left:80px ; */
+}
+#doctor-last2{
+    margin-left: 200px;
+}
+#doctor-last1 {
+    /* margin-right: 90px; */
+}
+/* #doctor-last-id{
+    display: flex;
+    align-items: self-end;
+    justify-content: flex-end;
+} */
+#doctor-last-two-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .download-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+    font-size: 30px;
+    border-radius: 4px;
+    display: none;
+  }
+  .download-icon a i{
+    color: white;
+  }
+  a img {
+    filter: brightness(100%) saturate(100%);
+    transition: all 1s;
+}
+
+a img:hover {
+    filter: brightness(50%) saturate(0%);
+    /* transform: scale(1.1); */
+}
+
+  .image-container:hover .download-icon {
+    display: block;
+  }
+.management-heading h3{
+    color: #17449e;
+}
+.board-director-text h3{
+    color: #17449e;
+}
+
+  
+  /* --------------------------------- dhmc-facilities section ----------------------------------------- */
+
+  .dhmc-facilities{
+    background-image: url("/images/about-2-title-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 60px 0px  ;
+    
+  }
+  .dhmc-facilities-heading h1{
+    font-size: 49px;
+    font-weight: 700;
+    color: white;
+  }
+
+   #facilities-p1{
+    font-size: 20px;
+    font-family: 'poppine';
+    
+    color: white;
+  }
+  .facilities-p23{
+    font-size: 18px;
+    color: #a0cbff;
+    font-family: 'poppine';
+   
+  }
+/* -------------------------------------- .facilities-cards section---------------------- */
+
+ .box{
+    width: 400px;
+    /* height: 350px; */
+    margin: 0 auto;
+    position: relative;
+    perspective: 1000px;
+    /* opacity: 0.4; */
+    background-color: #b5757259;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+ .box .inner-for-border{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    border: 1px solid white;
+    top: 25px;
+    left: 20px;
+    transform: rotateY(0);
+    border-radius: 8px;
+ }
+ .box-img img{
+    width: 100%;
+    height: 450px;
+ }
+ .box .box-img{
+    transform: rotateY(0);
+    transition: all 0.5s ease-in-out;
+    position: relative;
+ }
+ .box-inner-heading{
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    color: white;
+ }
+ .box-inner-heading h3{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+ }
+ .box-inner-heading h3::before{
+    content: " ";
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    height: 3px;
+    width: 30px;
+    background: white; 
+ }
+ .box-content h3{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+ }
+ .box-content h3::before{
+    content: " ";
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+    height: 3px;
+    width: 30px;
+    background: white; 
+ }
+ .box:hover .box-img{
+    transform: rotateY(-90deg);
+ }
+ .box .box-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 100px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: rotateY(90deg);
+    transition: all 0.5s ease-in-out;
+ }
+ .box:hover .box-content{
+    transform: rotateY(0deg);
+ }

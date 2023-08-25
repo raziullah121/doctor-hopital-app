@@ -1,0 +1,1893 @@
+/*
+ Theme Name:   Mediz Child
+ Theme URI:    http://demo.goodlayers.com/mediz
+ Description:  Goodlayers Mediz Child Theme
+ Author:       Goodlayers
+ Author URI:   http://goodlayers.com
+ Template:     mediz
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, right-sidebar, responsive-layout
+ Text Domain:  mediz-child
+
+ START YOUR CHILD THEME CSS HERE
+*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* Additional CSS Start */
+
+.hidden {
+	display:none !important;
+}
+.mediz-logo {
+    padding-top: 18px;
+}
+.mediz-copyright-text, .mediz-copyright-left, .mediz-copyright-right {
+    font-size: 12px;
+}
+.mediz-header-style-plain.mediz-style-menu-right .mediz-navigation {
+    float: left;
+}
+.mediz-navigation {
+    padding-top: 10px;
+}
+.mediz-main-menu-right-wrap {
+	margin-top: 13px;
+}
+.mediz-navigation .sf-menu > li > a, .mediz-navigation .sf-vertical > li > a {
+    font-size: 14px;
+}
+.mediz-navigation .sf-menu > li {
+    padding-left: 14px;
+    padding-right: 6px;
+    /* font-size: 19px; */
+}
+#menu-main-menu-1 {
+	padding-top: 14px;
+}
+.gdlr-core-tab-feature3-item .gdlr-core-tab-feature3-title-item-wrap {
+	display:none !important;
+}
+.mediz-main-menu-search i, .mediz-main-menu-cart i {
+    color: #17449e !important;
+}
+.mediz-main-menu-search i {
+    font-size: 29px !important;
+    margin-top: -1px;
+    cursor: pointer;
+}
+.page-id-10280 .mediz-page-title-wrap {
+	display:none;
+}
+.contatsocial .gdlr-core-social-network-item {
+	display:block !important;
+}
+.mediz-logo-inner {
+    max-width: 300px;
+}
+.ig_es_form_field_email {
+	width: 65%;
+    height: 56px;
+    border-radius: 5px;
+    float: left;
+}
+.es_subscription_form_submit {
+	border-radius: 9px;
+	margin-top: 0px !important;
+	margin-left: 10px !important;
+	padding: 18px 38px !important;
+}
+.fixed-top {
+	position: fixed  !important;
+    width: 100% !important;
+}
+.personnel-header-wrapper .gdlr-core-pbf-wrapper-content .gdlr-core-pbf-wrapper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topnav input[type=text] {
+	float: left;
+/*  padding: 6px;
+  	margin-top: 8px;
+  	margin-right: 16px;
+  	border: none;
+  	font-size: 17px; */
+}
+.page-id-9441 .mediz-page-title-wrap, .page-id-9027 .mediz-page-title-wrap{
+	display:none;
+}
+.mediz-copyright-right {
+    float: left !important;
+}
+.mediz-navigation {
+    padding-top: 15px !important;
+}
+.mediz-main-menu-right-wrap {
+    margin-top: 1px !important;
+}
+.mediz-main-menu-right {
+    display: none !important;
+}
+.news-top {
+	padding-top: 50px;
+}
+/* .gdlr-core-item-pdb {
+    padding-bottom: 0px !important;
+} */
+.pediatric-care {
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.care-btn {
+	padding-bottom: 50px !important;	
+}
+.wpcf7-form textarea { 
+    width: 100% !important;
+    height:50px;
+}
+/*
+	.mediz-top-bar-background {
+		background-color:#5170ca;
+	}
+	.mediz-top-bar .mediz-top-bar-right-social a {
+		color: #ffffff;
+	}
+	.mediz-body .mediz-top-bar a, .mediz-top-bar-left {
+		color: #fff;
+	}
+*/
+@media only screen and (max-width: 680px) {
+	.mediz-mobile-header .mediz-logo-inner img {
+    	width: 240px !important;
+	}
+	.mediz-logo-inner a img {
+    	max-width: none !important;
+	}
+	.mediz-main-menu-search i {
+		font-size: 14px !important;
+	}
+}
+
+/* Additional CSS End */
+
+form.patient-report-form input[type=text] {
+    background-color: #ffffff;
+    padding: 15px 20px 15px 20px;
+    font-size: 15px;
+    border: 1px solid;
+    color: #979797;
+    font-family: "Poppins", sans-serif;
+    border-radius: 3px;
+    width: 30%;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+.topnav input.search-list-item {
+    background-color: #ffffff;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid;
+    color: #161616;
+    font-family: "Poppins", sans-serif;
+    border-radius: 3px;
+    width: 30%;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+    border-color: #999;
+	min-height: 52px;
+    max-height: 52px;
+	border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+form.item-search-form .field-group button {
+    padding: 13px 20px;
+    font-size: 20px;
+    background: #4d93e9;
+    border: none;
+    color: #ffffff;
+    min-height: 52px;
+    max-height: 52px;
+	cursor: pointer;
+	border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+	line-height: 20px;
+}
+form.patient-report-form input[type=submit] {
+    background-color: #4d93e9;
+    width: 30%;
+    color: #ffffff;
+    margin-bottom: 40px;
+    border-radius: 3px;
+    padding: 18px 33px;
+}
+.board-directors-team-section .gdlr-core-personnel-list .gdlr-core-personnel-list-image > img {
+    width: 390px;
+    height: 360px;
+    object-fit: cover;
+}
+div#wpcf7-f1979-p10280-o1 span.wpcf7-spinner {
+    display: table;
+    margin: auto;
+    margin-top: 10px;
+}
+span.serve_text {
+    font-size: 26px;
+    font-style: italic;
+    color: #17449e;
+    font-weight: 500;
+}
+div#wpcf7-f1979-p10280-o1 span.wpcf7-form-control-wrap span.wpcf7-not-valid-tip {
+    display: none;
+}
+div#wpcf7-f1979-p10280-o1 span.wpcf7-form-control-wrap span:nth-child(2) {
+    display: block !important;
+}
+.values-boxes-section .gdlr-core-pbf-column-content-margin.gdlr-core-item-mgb {
+    height: 190px;
+}
+.values-boxes-section .gdlr-core-pbf-column-content-margin.gdlr-core-item-mgb .gdlr-core-column-service-content p {
+    margin-bottom: 0px;
+}
+.mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(3) div#text-35 {
+    margin-bottom: 10px;
+}
+.mediz-footer-wrapper .mediz-widget-title {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    letter-spacing: -1px !important;
+	color: #020202 !important;
+}
+.mediz-footer-wrapper .widget_text span.gdlr-core-social-network-item a.gdlr-core-social-network-icon {
+    margin: 0px 15px;
+}
+.mediz-footer-wrapper .widget.widget_nav_menu ul li:before {
+    background: #285fb9;
+}
+.mediz-footer-wrapper .mediz-footer-container.mediz-container div#text-36 p > i {
+    font-size: 17px !important;
+    color: #17449E !important;
+}
+.mediz-footer-wrapper .widget_text span.gdlr-core-social-network-item a.gdlr-core-social-network-icon:first-child {
+    margin-left: 0px;
+}
+.mediz-footer-wrapper .widget.widget_nav_menu ul li::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #17449E;
+    border-radius: 50px;
+    margin-top: 7px;
+}
+.mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:first-child div#text-1 {
+    margin-bottom: 0px;
+}
+.mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(2), .mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(3), .mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(4) {
+    margin-top: 133px;
+}
+.mediz-footer-wrapper, .mediz-footer-wrapper * {
+    background: #ffffff !important;
+}
+.mediz-footer-wrapper .widget.widget_nav_menu ul li {
+    margin-bottom: 10px;
+}
+.gdlr-core-text-box-item .gdlr-core-text-box-item-content .gdlr-core-icon-list-item.emptyItems {
+	display: none;
+}
+.gdlr-core-text-box-item .gdlr-core-text-box-item-content .gdlr-core-icon-list-item.visibleItems {
+	display: block;
+}
+.bg-box-section-wrapper div.gdlr-core-pbf-column .gdlr-core-pbf-column-content-margin {
+    background: #eee;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 0px #797b7e;
+}
+.bg-box-section-wrapper div.gdlr-core-pbf-column .gdlr-core-pbf-column-content-margin {
+    background: #eee;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px 0px #797b7e;
+    margin-bottom: 0px;
+    min-height: 315px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.blogs-grid-module .gdlr-core-blog-grid {
+    background: #eee;
+}
+.blogs-grid-module .gdlr-core-blog-grid .gdlr-core-blog-grid-content-wrap {
+    padding: 0px 15px 5px 15px;
+}
+.blogs-grid-module .gdlr-core-blog-grid .gdlr-core-blog-grid-content-wrap h3.gdlr-core-blog-title {
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+.blogs-grid-module .gdlr-core-blog-grid .gdlr-core-blog-grid-content-wrap a.gdlr-core-excerpt-read-more {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+.blogs-grid-module .gdlr-core-blog-grid .gdlr-core-blog-thumbnail {
+    margin-bottom: 25px;
+}
+.blogs-grid-module .gdlr-core-blog-grid .gdlr-core-blog-thumbnail img {
+    min-height: 260px;
+    object-fit: cover;
+    max-height: 260px;
+}
+.blogs-grid-module .gdlr-core-blog-grid .gdlr-core-blog-grid-content-wrap .gdlr-core-blog-info-date {
+    background: #4d93e9;
+    color: #ffffff;
+}
+.blogs-grid-module .gdlr-core-blog-grid .gdlr-core-blog-grid-content-wrap .gdlr-core-blog-info-date a {
+    color: #ffffff;
+}
+form.lab-result-online .field-group label {
+    color: #333;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: inherit;
+}
+form.lab-result-online .field-group {
+    margin-bottom: 14px;
+}
+form.lab-result-online .field-group input[type="text"], form.lab-result-online .field-group input[type="password"] {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px 20px 15px 20px;
+    font-size: 15px;
+    border: 1px solid;
+    color: #979797;
+    font-family: "Poppins", sans-serif;
+    border-radius: 3px;
+    width: 50%;
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+form.lab-result-online .field-group p.forget-psw {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+a.link-color {
+    color: #17449e;
+    text-transform: capitalize;
+    font-style: italic;
+    text-decoration: underline;
+}
+.hidden-wrappers {
+	display: none;
+}
+span.number-highlighted {
+    font-size: 90px;
+    color: #17449e;
+}
+.number-quote .gdlr-core-blockquote-item-quote {
+    display: none;
+}
+.icon-list-items .gdlr-core-column-service-content-wrapper .gdlr-core-column-service-title-wrap {
+    margin-bottom: 5px;
+}
+.our-doctors-list .gdlr-core-personnel-list .gdlr-core-personnel-list-image img {
+    min-height: 350px;
+    max-height: 350px;
+    object-fit: cover;
+	width: 100%;
+}
+.our-doctors-list .gdlr-core-personnel-list .gdlr-core-personnel-list-content-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.news-events-gallery .gdlr-core-gallery-item-holder .gdlr-core-gallery-list img {
+    min-height: 278px;
+    max-height: 278px;
+    object-fit: cover;
+}
+.services-section ul li span.gdlr-core-icon-list-icon-wrap {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.services-section ul li span.gdlr-core-icon-list-icon-wrap i {
+    color: #4d93e9;
+}
+span.number-highlighted.heading {
+    font-size: 65px;
+}
+.mediz-footer-wrapper div#text-1 .textwidget img {
+    margin-bottom: 0px;
+}
+.mediz-footer-wrapper .mediz-footer-container .mediz-footer-column.mediz-item-pdlr:last-child div#text-35 {
+    margin-bottom: 5px;
+}
+.mediz-footer-wrapper .mediz-footer-container .mediz-footer-column.mediz-item-pdlr:last-child div#nav_menu-4 {
+    margin-bottom: 0px;
+}
+.home-side-image-section a.gdlr-core-column-service-read-more {
+    color: #17449e;
+}
+.vertical-align-section div.gdlr-core-pbf-column .gdlr-core-pbf-column-content-margin {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.quote-section .gdlr-core-blockquote > div:last-child {
+    transform: rotate(180deg);
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+.flip-card-module .gdlr-core-flipbox-front.gdlr-core-js.gdlr-core-center-align.gdlr-core-icon-top.gdlr-core-flipbox-type-inner {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.flip-card-module .gdlr-core-flipbox .gdlr-core-flipbox-front .gdlr-core-flipbox-content .gdlr-core-flipbox-content-wrap h3.gdlr-core-flipbox-item-title {
+    text-shadow: 2px 2px 5px #333333;
+}
+.covid-content-table table tr td {
+    color: #333333;
+}
+.covid-content-table table tr td strong {
+    font-weight: 500;
+}
+.covid-content-table table {
+    border: 1px solid #cccccc;
+}
+.covid-content-table table tr {
+    background: #eee;
+}
+.covid-content-table table tr td h4 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.covid-content-table table tr td h4 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.covid-content-table table tr td h4 strong {
+    font-weight: 600 !important;
+}
+.home-side-image-section .gdlr-core-pbf-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-our-services-section .gdlr-core-column-service-item .gdlr-core-column-service-media.gdlr-core-media-image img {
+    max-width: 150px;
+    display: table;
+    margin: auto;
+}
+.home-our-services-section .gdlr-core-column-service-item {
+    text-align: center;
+}
+.home-our-services-section .gdlr-core-column-service-item .gdlr-core-column-service-media.gdlr-core-media-image {
+    margin-bottom: 5px;
+}
+.subscribe-our-newsletter-col form.es_subscription_form input.es_required_field.es_txt_email {
+    padding: 0px 15px;
+}
+.subscribe-our-newsletter-col form.es_subscription_form input.es_subscription_form_submit {
+    background-color: #3d8ae9;
+    border-radius: 50px;
+}
+.icon-list-items .gdlr-core-column-service-content-wrapper .gdlr-core-column-service-content a.gdlr-core-column-service-read-more {
+    display: none;
+}
+.icon-list-items .gdlr-core-column-service-media.gdlr-core-media-image {
+    margin-bottom: 10px;
+}
+.dhmc-quote-section .gdlr-core-blockquote-item-quote.gdlr-core-quote-font.gdlr-core-skin-icon {
+    display: none;
+}
+.icon-list-items.center-icon-list-items {
+    text-align: center;
+}
+.diagnostics-lab-choice-section ul {
+    display: table;
+    margin: auto;
+}
+.gallery-insurance-panels .gdlr-core-gallery-item-holder .gdlr-core-item-list .gdlr-core-gallery-list.gdlr-core-media-image {
+    border: 1px solid #cccccc;
+}
+.icon-list-items.certifications-icon-list-items {
+    border: 1px solid #cccccc;
+    margin: 0px 10px;
+    padding: 20px !important;
+    text-align: center;
+    min-height: 378px;
+}
+.news-events-gallery ul.flex-direction-nav li a {
+    background: #17449e;
+    box-shadow: 1px 1px 10px 2px #ffffff;
+    padding: 0px;
+}
+.news-events-gallery ul.flex-direction-nav li a i {
+    font-size: 34px;
+    width: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+.home-newsletter-section form.es_subscription_form input.es_required_field.es_txt_email {
+    padding: 0px 15px;
+    font-size: 15px;
+}
+.home-newsletter-section form.es_subscription_form input.es_subscription_form_submit {
+    letter-spacing: 1px;
+}
+.news-events-gallery .flex-viewport ul.slides li img {
+    min-width: 280px;
+    min-height: 217px;
+    max-height: 217px;
+    object-fit: cover;
+}
+footer .mediz-copyright-right {
+    font-size: 14px;
+    padding-top: 4px;
+}
+.mediz-mobile-header .mediz-logo-inner img {
+  	width: 160px !important;
+	max-width: 160px !important;
+}
+span.select2.select2-container {
+    width: 45% !important;
+    height: 50px !important;
+}
+.select2-container .select2-selection--single {
+    height: 50px !important;
+    line-height: 50px !important;
+	padding: 0px 10px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px !important;
+    height: 50px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 48px !important;
+    width: 35px !important;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    height: 45px !important;
+    border: 1px solid #ccc !important;
+    padding: 4px 10px;
+    font-size: 18px;
+    color: #333333;
+    box-shadow: 0px 0px 2px 0px #4d93e9;
+}
+.mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(1), .mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(2) {
+    padding-right: 40px;
+}
+.mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(3) {
+	padding-right: 0px;
+}
+.mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(2), .mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(4) {
+    display: flex;
+    justify-content: center;
+}
+span.member-name {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.career-job-post .gdlr-core-pbf-element {
+	background: #458ee8;
+    padding: 20px;
+    min-height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+.career-job-post .gdlr-core-pbf-element .gdlr-core-title-item {
+    padding: 0px !important;
+}
+.career-job-post .gdlr-core-pbf-element .gdlr-core-title-item h3, .career-job-post .gdlr-core-pbf-element .gdlr-core-title-item span.gdlr-core-title-item-caption {
+    color: #ffffff !important;
+}
+.specialities-quote-wrapper .gdlr-core-pbf-column-content-margin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-id-10454 .gdlr-core-icon-list-item ul li {
+    display: flex;
+    align-items: flex-start;
+}
+
+@media (max-width: 1024px) {
+	form.patient-report-form input[type=text], form.patient-report-form input[type=submit] {
+		width: 100%;
+	}
+	form.lab-result-online .field-group input[type="text"], form.lab-result-online .field-group input[type="password"] {
+		width: 100%;
+	}
+	span.select2.select2-container {
+		width: 100% !important;
+	}
+		.mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(2), .mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(3), .mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(4) {
+		margin-top: 0px;
+	}
+	div#es_form_f1-p7684-n1 form.es_subscription_form input.es_required_field {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	div#es_form_f1-p7684-n1 form.es_subscription_form input.es_subscription_form_submit {
+		margin-left: 0px !important;
+	}
+	.mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15 {
+		padding-right: 20px;
+	}
+	.mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(2) {
+		padding-right: 20px;
+	}
+		.mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(2), .mediz-footer-wrapper .mediz-footer-container.mediz-container .mediz-footer-column.mediz-item-pdlr.mediz-column-15:nth-child(4) {
+		justify-content: start;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	.board-directors-team-section .gdlr-core-personnel-list .gdlr-core-personnel-list-image > img {
+		width: 100%;
+		height: 250px;
+		object-fit: cover;
+	}
+}
+
+
+
+/* Fonts Implementation */
+body, input, button, select, .mediz-body, .mediz-body .gdlr-core-content-font, .mediz-body input, .mediz-body textarea, .mediz-body button, .mediz-body select, .mediz-body .mediz-content-font, .gdlr-core-audio .mejs-container *,
+.mediz-body h1, .mediz-body h2, .mediz-body h3, .mediz-body h4, .mediz-body h5, .mediz-body h6, .mediz-body .mediz-title-font, .mediz-body .gdlr-core-title-font,
+.mediz-body .gdlr-core-info-font, .mediz-body .mediz-info-font,
+.mediz-navigation .sf-menu > li > a, .mediz-navigation .sf-vertical > li > a, .mediz-navigation-font,
+rs-module rs-layer, rs-module .rs-layer{
+    font-family: Montserrat, Times !important;   
+}
+.lg-icon, .lg-icon:after, .lg-icon:before {
+  font-family: lg !important; 
+}
+
+
+/* Responsive Issues Fixes */
+
+.mediz-container, 
+.gdlr-core-container, 
+body.mediz-boxed .mediz-body-wrapper, 
+body.mediz-boxed .mediz-fixed-footer .mediz-footer-wrapper, 
+body.mediz-boxed .mediz-fixed-footer .mediz-copyright-wrapper {
+    max-width: 1350px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.mediz-navigation-container.mediz-container {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.emergency-services-card .gdlr-core-column-first {
+	padding-left: 20px;
+}
+
+.home-stats-block .gdlr-core-pbf-column {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#gdlr-core-wrapper-3.home-side-image-section .gdlr-core-pbf-column:not(.gdlr-core-column-first) .gdlr-core-pbf-column-content-margin {
+	padding-right: 0 !important;
+	padding-left: 55px !important;
+	padding-top: 0 !important;
+}
+
+.home-side-image-section span.serve_text {
+	font-size: 18px !important
+}
+
+.about-hospital-block .gdlr-core-pbf-column.gdlr-core-column-40 {
+	padding-left: 25px;
+}
+
+.vision-section h3.gdlr-core-title-item-title {
+	line-height: 2 !important;
+}
+
+.vision-section .gdlr-core-pbf-column.gdlr-core-column-first .gdlr-core-pbf-column-content-margin {
+	padding: 35px 6% !important;
+}
+
+.values-boxes-section .gdlr-core-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.values-boxes-section .gdlr-core-container .gdlr-core-pbf-column {
+	padding: 0 15px 30px !important;
+}
+
+.values-boxes-section .gdlr-core-container .gdlr-core-pbf-column-content-margin {
+	margin: 0 !important;
+	height: 100% !important;
+}
+
+.subpages-banner.small-banner {
+	padding: 55px 0 !important;	
+}
+
+.subpages-banner.small-banner .gdlr-core-title-item {
+	padding-bottom: 0 !important;
+}
+
+.message-block .gdlr-core-pbf-column .gdlr-core-pbf-column-content-margin {
+	padding: 35px !important;
+}
+
+.message-block .gdlr-core-pbf-background.gdlr-core-parallax {
+	background-position: center top !important;
+}
+
+.message-block .gdlr-core-pbf-column .gdlr-core-text-box-item.gdlr-core-item-pdb {
+	padding: 0 !important;
+}
+
+.message-block .gdlr-core-pbf-column .gdlr-core-text-box-item p {
+	margin-bottom: 10px !important;
+}
+
+.testimonials-section .gdlr-core-container-custom {
+	max-width: 1350px !important;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+
+.testimonials-section .quote-section .gdlr-core-blockquote > div:last-child {
+	bottom: 0 !important;
+}
+
+.flipboxes-section.gdlr-core-pbf-wrapper {
+	padding: 70px 0 !important;
+}
+
+.flipboxes-section .gdlr-core-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.flipboxes-section .gdlr-core-pbf-column-content-margin {
+	padding: 0 !important;
+}
+
+.flipboxes-section .gdlr-core-flipbox-item {
+	padding: 20px !important;
+}
+
+.board-block-items .gdlr-core-container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.board-block-items .gdlr-core-pbf-column-content-margin {
+	padding: 0 !important;
+}
+
+.board-block-items .gdlr-core-pbf-column {
+	padding: 10px !important
+}
+
+.board-block-items .gdlr-core-pbf-column-content {
+	box-shadow: 0 0 30px rgba(10, 10, 10,0.09);
+	border-radius: 5px;
+	background: #fff;
+}
+
+.board-block-items .gdlr-core-pbf-column-content .gdlr-core-image-item-wrap {
+	width: 100%;
+}
+
+.board-block-items .gdlr-core-pbf-column-content .gdlr-core-image-item-wrap img {
+	width: 100%;
+}
+
+.board-block-items .gdlr-core-pbf-column-content h3.gdlr-core-title-item-title {
+	font-size: 20px !important;
+	line-height: 1.5;
+	font-weight: 700;
+	padding: 0 10px;
+}
+
+#gdlr-core-wrapper-5.board-block-items {
+	padding-bottom: 80px !important;
+}
+
+.gallery-insurance-panels .gdlr-core-item-list {
+	margin: 0 10px 20px;
+	width: calc(25% - 20px);
+}
+
+@media (max-width: 1439px) {
+	.home-features-block .gdlr-core-pbf-column-content-margin {
+		padding-left: 5% !important;
+		padding-right: 5% !important;
+	}
+	
+	.message-block .gdlr-core-pbf-column .gdlr-core-pbf-column-content-margin {
+		padding: 25px 20px !important;
+	}
+}
+
+@media (max-width: 1299px) {
+	.mediz-logo .mediz-logo-inner {
+		max-width: 250px;
+	}
+	
+	div#es_form_f1-p7684-n1 form.es_subscription_form input.es_required_field {
+	  width: 100%;
+	  margin-bottom: 10px;
+	}
+	
+	div#es_form_f1-p7684-n1 form.es_subscription_form input.es_subscription_form_submit {
+	  margin-left: 0 !important;
+	}
+}
+
+@media (max-width: 1199px) {
+	.mediz-top-bar {
+		font-size: 13px !important;
+	}
+	
+	.mediz-header-style-bar .mediz-header-container-inner {
+		margin-top: 25px !important;
+		margin-bottom: 25px !important;
+	}
+	
+	.mediz-logo .mediz-logo-inner {
+		max-width: 200px;
+	}
+	
+	.mediz-navigation .sf-menu > li {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+	
+	.mediz-navigation .sf-menu > li > a, 
+	.mediz-navigation .sf-vertical > li > a {
+		font-size: 14px !important;
+	}
+	
+	.home-about-section .gdlr-core-column-first .gdlr-core-pbf-column-content-margin {
+		padding-top: 135px !important;
+		padding-right: 35px !important;
+	}
+	
+	.home-about-section .gdlr-core-column-first h2.gdlr-core-title-item-title {
+		font-size: 35px !important;
+	}
+	
+	.home-about-section .gdlr-core-column-service-icon-left .gdlr-core-column-service-media {
+		max-width: 20% !important;
+		margin-right: 15px !important;
+	}
+	
+	.home-side-image-section .gdlr-core-title-item-title-wrap h2.gdlr-core-title-item-title {
+		font-size: 32px !important;
+	}
+	
+	.home-side-image-section .gdlr-core-column-service-title-wrap h3.gdlr-core-column-service-title,
+	.home-side-image-section .gdlr-core-title-item .gdlr-core-title-item-title {
+		font-size: 22px !important;
+	}
+	
+	.home-side-image-section .gdlr-core-column-service-item .gdlr-core-column-service-content,
+	.home-side-image-section .gdlr-core-column-service-item .gdlr-core-column-service-content .gdlr-core-column-service-read-more,
+	.home-side-image-section .gdlr-core-text-box-item .gdlr-core-text-box-item-content {
+		font-size: 16px !important;
+	}
+	
+	#gdlr-core-wrapper-2.home-side-image-section .gdlr-core-pbf-column.gdlr-core-column-first .gdlr-core-pbf-column-content-margin {
+		padding-right: 25px !important;
+	}
+	
+	#gdlr-core-wrapper-3.home-side-image-section .gdlr-core-pbf-column:not(.gdlr-core-column-first) .gdlr-core-pbf-column-content-margin {
+		padding-right: 0 !important;
+		padding-left: 25px !important;
+	}
+	
+	.mediz-footer-wrapper .mediz-footer-container {
+		display: flex;
+		flex-flow: row wrap;
+	}
+	
+	.mediz-footer-wrapper .mediz-footer-container .mediz-footer-column {
+		width: 33.333%;
+		padding-right: 20px !important;
+		margin: 0 0 30px !important;
+	}
+	
+	.mediz-footer-wrapper .mediz-footer-container .mediz-footer-column:first-child {
+		width: 100%;
+		padding-right: 0 !important;
+	}
+	
+	.mediz-footer-wrapper .mediz-footer-container .widget {
+		width: 100%;
+	}
+	
+	.mediz-footer-wrapper .mediz-footer-container .mediz-footer-column:last-child {
+		justify-content: flex-end !important;
+	}
+	
+	.mediz-footer-wrapper .mediz-footer-container .mediz-footer-column:last-child .widget {
+		width: auto;
+		min-width: 225px;
+	}
+	
+	.mediz-copyright-wrapper .mediz-copyright-container {
+		padding-top: 0 !important;
+	}
+	
+	.about-hospital-block h3.gdlr-core-title-item-title {
+		font-size: 42px !important;
+	}
+	
+	.vision-section h3.gdlr-core-title-item-title {
+		font-size: 23px !important;
+	}
+	
+	.values-boxes-section .gdlr-core-container .gdlr-core-pbf-column {
+		width: 33.333% !important;
+	}
+
+	.message-block .gdlr-core-pbf-column .gdlr-core-text-box-item p {
+		margin-bottom: 5px !important;
+	}
+	
+	.message-block .gdlr-core-pbf-column .gdlr-core-title-item-caption {
+		font-size: 16px !important;
+	}
+	
+	.message-block .gdlr-core-pbf-column h2.gdlr-core-title-item-title {
+		font-size: 32px !important;
+	}
+	
+	.message-block .gdlr-core-pbf-column span.member-name {
+		font-size: 20px !important;
+	}
+	
+	.message-block .gdlr-core-pbf-column .gdlr-core-text-box-item-content {
+		font-size: 14px !important;
+		line-height: 1.5px !important;
+	}
+	
+	.flipboxes-section .gdlr-core-pbf-column {
+		width: 50%;
+	}
+	
+	.board-block-items .gdlr-core-pbf-column-content h3.gdlr-core-title-item-title {
+		font-size: 18px !important;
+	}
+	
+	.column-disease h3.gdlr-core-column-service-title,
+	.page-id-9600 .gdlr-core-column-service-item h3.gdlr-core-column-service-title {
+		font-size: 18px !important;
+	}
+	
+	.specialities-quote-wrapper .gdlr-core-pbf-column.gdlr-core-column-first .gdlr-core-pbf-column-content-margin  {
+		padding-left: 20px !important;
+		padding-bottom: 20px !important;
+	}
+}
+
+@media (max-width: 999px) {
+	.mediz-mobile-header .mediz-logo {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	
+	.mediz-mobile-menu-right {
+		right: 15px !important;
+	}
+
+	.emergency-services-card .gdlr-core-column-first {
+		padding-left: 0;
+	}
+	
+	.emergency-services-card .gdlr-core-column-20 .gdlr-core-pbf-column-content-margin {
+		padding-right: 0 !important;
+		padding-left: 15px !important;
+	}
+	
+	.emergency-services-card .gdlr-core-column-20 h3.gdlr-core-title-item-title {
+		font-size: 19px !important;
+	}
+	
+	.home-our-services-section .gdlr-core-pbf-element .gdlr-core-column-service-title-wrap {
+		margin-bottom: 10px !important;
+	}
+	
+	.home-our-services-section .gdlr-core-pbf-element .gdlr-core-column-service-item {
+		overflow: hidden;
+		padding-bottom: 0 !important;
+	}
+	
+	.home-our-services-section .gdlr-core-column-service-item .gdlr-core-column-service-media.gdlr-core-media-image img {
+		max-width: 125px !important;
+	}
+	
+	.home-stats-block .gdlr-core-pbf-column .gdlr-core-counter-item .gdlr-core-counter-item-number {
+		font-size: 32px !important;
+	}
+	
+	.home-stats-block .gdlr-core-pbf-column .gdlr-core-counter-item .gdlr-core-counter-item-bottom-text {
+		font-size: 15px !important;
+	}
+	
+	.home-about-section .gdlr-core-column-first .gdlr-core-pbf-column-content-margin {
+		padding-top: 130px !important;
+		padding-right: 20px !important;
+		padding-bottom: 20px !important;
+	}
+	
+	.home-about-section .gdlr-core-column-first h2.gdlr-core-title-item-title {
+		font-size: 26px !important;
+	}
+	
+	.home-about-section .gdlr-core-column-first .gdlr-core-pbf-element .gdlr-core-title-item {
+		padding-bottom: 15px !important;
+	}
+	
+	.home-about-section .gdlr-core-column-first .gdlr-core-pbf-element .gdlr-core-text-box-item {
+		padding-bottom: 25px !important;
+	}
+	
+	.home-about-section .gdlr-core-column-first .gdlr-core-pbf-element .gdlr-core-text-box-item .gdlr-core-text-box-item-content {
+		font-size: 13px !important;
+	}
+	
+	.home-about-section .gdlr-core-column-first .gdlr-core-pbf-element .gdlr-core-column-service-content  {
+		font-size: 14px !important;
+	}
+	
+	.home-about-section .gdlr-core-pbf-column-content-margin.gdlr-core-column-extend-right {
+		padding-bottom: 280px !important;
+	}
+	
+	.home-side-image-section .gdlr-core-title-item-title-wrap h2.gdlr-core-title-item-title {
+		font-size: 26px !important;
+	}
+	
+	.home-side-image-section .gdlr-core-column-service-title-wrap h3.gdlr-core-column-service-title {
+		font-size: 18px !important;
+	}
+	
+	.home-side-image-section .gdlr-core-column-service-item .gdlr-core-column-service-content,
+	.home-side-image-section .gdlr-core-column-service-item .gdlr-core-column-service-content .gdlr-core-column-service-read-more,
+	.home-side-image-section .gdlr-core-text-box-item .gdlr-core-text-box-item-content {
+		font-size: 14px !important;
+	}
+	
+	.home-features-block .gdlr-core-pbf-column-content-margin .gdlr-core-column-service-title,
+	.home-side-image-section .gdlr-core-title-item .gdlr-core-title-item-title {
+		font-size: 18px !important;
+	}
+	
+	.home-features-block .gdlr-core-pbf-column-content-margin .gdlr-core-column-service-content { 
+		font-size: 14px !important;
+	}
+	
+	.home-newsletter-section .gdlr-core-pbf-column-content-margin {
+		margin: 0 !important;
+	}
+	
+	.mediz-footer-wrapper {
+		padding-top: 45px !important;
+		padding-bottom: 0 !important;
+	}
+	
+	.mediz-copyright-wrapper .mediz-copyright-text {
+		font-size: 14px !important;
+	}
+	
+	.about-hospital-block h3.gdlr-core-title-item-title {
+		font-size: 32px !important;
+	}
+	
+	.about-hospital-block .gdlr-core-text-box-item-content,
+	.about-hospital-block .gdlr-core-title-item-caption {
+		font-size: 16px !important;
+	}
+	
+	.services-stats-block .gdlr-core-counter-item-number {
+		font-size: 32px !important;
+	}
+	
+	.services-stats-block .gdlr-core-counter-item-bottom-text {
+		font-size: 15px !important;
+	}
+	
+	.subpages-banner.gdlr-core-pbf-wrapper {
+		padding: 100px 0 180px !important;
+	}
+	
+	.subpages-banner h3.gdlr-core-title-item-title {
+		font-size: 50px !important;
+	}
+	
+	.mission-section #gdlr-core-column-2 .gdlr-core-pbf-column-content-margin {
+		padding: 35px 25px 0 !important;
+	}
+	
+	.subpages-banner.small-banner.gdlr-core-pbf-wrapper {
+		padding: 55px 0 !important;
+	}
+	
+	.message-block .gdlr-core-pbf-column {
+		width: 100% !important;
+	}
+	
+	.message-block .gdlr-core-pbf-column .gdlr-core-pbf-column-content-margin {
+		padding: 35px 25px !important;
+	}
+	
+	.leadership-section .gdlr-core-text-box-item-content {
+		font-size: 18px !important;
+	}
+
+	.testimonials-section .gdlr-core-pbf-column-content-margin {
+		padding: 30px !important;
+	}
+	
+	.flipboxes-section.gdlr-core-pbf-wrapper {
+		padding: 40px 0 !important;
+	}
+	
+	.flipboxes-section .gdlr-core-flipbox-item {
+		padding: 10px !important;
+	}
+	
+	.board-block-items .gdlr-core-pbf-column-content h3.gdlr-core-title-item-title {
+		font-size: 16px !important;
+	}
+	.request-lab-section h3.gdlr-core-skin-title, .certified-counter .gdlr-core-pbf-column-content .gdlr-core-title-item-title {
+    	font-size: 30px !important;
+}
+	.request-cards div.gdlr-core-pbf-column .gdlr-core-pbf-column-content-margin {
+    	height: 100%;
+}
+	.request-cards .gdlr-core-pbf-column-content.clearfix.gdlr-core-js {
+    	display: flex;
+    	flex-direction: column;
+    	height: 100%;
+}
+	.request-cards .gdlr-core-pbf-element:last-child {
+    	margin: auto 0 0;
+}
+	.subscribe-our-newsletter-col form.es_subscription_form input.es_required_field.es_txt_email {
+    	margin: 10px 0;
+}
+
+	.blogs-grid-module .gdlr-core-item-list {
+    	width: 50%;
+}
+	.bg-box-section-wrapper .gdlr-core-pbf-column {
+    	margin: 20px 0;
+}
+	.page-id-9589 h2 {
+    	font-size: 34px !important;
+	}
+	.employee-benefit h3.gdlr-core-title-item-title{
+		font-size: 26px !important;
+	}
+	.career-job-post h3 {
+    	font-size: 16px !important;
+ 	}
+	.career-job-post h3 span {
+    	font-size: 13px !important;
+	}
+	.banner-section h3{
+		font-size: 32px !important;
+	}
+	
+	.banner-section span{
+		font-size: 20px !important;
+	}
+	.contact-form .gdlr-core-large input:not([type=button]):not([type=submit]):not([type=file]), .gdlr-core-input-wrap.gdlr-core-large select {
+    	font-size: 13px;
+    	padding: 14px 18px 16px !important;
+}
+	.contact-info .gdlr-core-pbf-column-content-margin{
+    	font-size: 12px;
+    	padding: 40px 15px 0px 15px !important;
+	}
+	.event-calendar table tr th {
+    	font-size: 11px !important;
+    	padding: 18px 6px !important;
+    	word-break: keep-all;
+	}
+	.event-calendar tbody tr td {
+    	font-size: 11px !important;
+		padding: 12px 6px !important
+	}
+		h1.mediz-page-title {
+    font-size: 34px !important;
+	}
+	h1.mediz-page-title span {
+    	font-size: 18px !important;
+	}
+	.reports-login h3.gdlr-core-skin-title, .certified-counter .gdlr-core-pbf-column-content .gdlr-core-title-item-title {
+    	font-size: 20px !important;
+	}
+	.gdlr-core-pbf-section:first-child {
+    	padding-top: 40px;
+	}
+	.gdlr-core-pbf-section:first-child:last-child {
+    	padding-bottom: 20px;
+	}
+	
+	
+	.column-disease h3.gdlr-core-column-service-title,
+	.page-id-9600 .gdlr-core-column-service-item h3.gdlr-core-column-service-title {
+		font-size: 16px !important;
+	}
+	
+	.specialities-quote-wrapper .number-highlighted {
+		font-size: 60px !important;
+	}
+	
+	.specialities-quote-wrapper .gdlr-core-blockquote-item-content {
+		font-size: 30px !important;
+	}
+	
+	.gallery-insurance-panels .gdlr-core-item-list {
+		margin: 0 5px 10px;
+		width: calc(25% - 10px);
+	}
+	.page-id-9852 .gdlr-core-column-15 {
+    	width: calc(50% - 20px);
+    	margin: 0 10px 20px;
+}
+	.career-job-post .gdlr-core-pbf-element{
+		margin: 0;
+	}
+	
+}
+
+@media (max-width: 767px) {
+	.emergency-services-card {
+		padding-top: 35px !important;
+		padding-bottom: 40px !important;
+	}
+	
+	.emergency-services-card .gdlr-core-text-box-item-content {
+		font-size: 14px !important;
+	}
+	
+	.emergency-services-card #gdlr-core-column-2.gdlr-core-column-20 .gdlr-core-pbf-column-content-margin {
+		padding-left: 0 !important;
+		padding-top: 20px !important;
+	}
+	
+	.home-our-services-section {
+		padding-top: 45px !important;
+	}
+	
+	.home-our-services-section .gdlr-core-column-20 {
+		width: 50%;
+	}
+	
+	.home-our-services-section .gdlr-core-pbf-column-content-margin {
+		padding-bottom: 5px !important;
+	}
+	
+	.home-our-services-section .gdlr-core-pbf-element .gdlr-core-column-service-title-wrap {
+		margin-bottom: 5px !important;
+	}
+	
+	.home-our-services-section h3.gdlr-core-column-service-title {
+		font-size: 18px !important;
+	}
+	
+	.home-our-services-section .gdlr-core-title-item .gdlr-core-title-item-caption,
+	.home-our-services-section .gdlr-core-column-service-item .gdlr-core-column-service-content{
+		font-size: 14px !important;
+	}
+	
+	.home-our-services-section .gdlr-core-column-service-item .gdlr-core-column-service-media.gdlr-core-media-image img {
+		max-width: 110px !important;
+	}
+	
+	.home-stats-block {
+		padding-top: 40px !important;
+		padding-bottom: 40px !important;
+	}
+	
+	.home-about-section .gdlr-core-column-first .gdlr-core-pbf-column-content-margin {
+		padding-bottom: 0 !important;
+		padding-right: 0 !important;
+	}
+	
+	.home-about-section .gdlr-core-column-service-icon-left .gdlr-core-column-service-media {
+		margin-left: -5px !important;
+	}
+	
+	.home-about-section .gdlr-core-column-first .gdlr-core-column-service-read-more {
+		font-size: 14px !important;
+	}
+	
+	.home-about-section #gdlr-core-column-17 .gdlr-core-pbf-column-content-margin {
+		padding-top: 50% !important;
+	}
+	
+	#gdlr-core-wrapper-2.home-side-image-section .gdlr-core-pbf-column.gdlr-core-column-first .gdlr-core-pbf-column-content-margin {
+		padding-right: 0 !important;
+		width: 100%;
+	}
+	
+	#gdlr-core-wrapper-3.home-side-image-section .gdlr-core-pbf-column:not(.gdlr-core-column-first) .gdlr-core-pbf-column-content-margin {
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+		width: 100%;
+	}
+	
+	#gdlr-core-wrapper-3.gdlr-core-pbf-wrapper.home-side-image-section  {
+		padding-top: 0 !important;
+		padding-bottom: 15px !important;
+	}
+	
+	#gdlr-core-wrapper-3.home-side-image-section .gdlr-core-pbf-column {
+		order: 1;
+	}
+	
+	#gdlr-core-wrapper-3.home-side-image-section .gdlr-core-pbf-column.gdlr-core-column-first {
+		order: 2;
+	}
+	
+	.home-side-image-section .gdlr-core-pbf-column-content-margin {
+		width: 100%;
+	}
+	
+	.home-side-image-section .gdlr-core-image-item img {
+		width: 100%;
+		display: block;
+	}
+	
+	.home-features-block .gdlr-core-pbf-wrapper-full-no-space {
+		max-width: 100% !important;
+	}
+	
+	.home-features-block .gdlr-core-pbf-column-content-margin {
+		padding-top: 40px !important;
+		padding-bottom: 40px !important;
+	}
+	
+	#gdlr-core-wrapper-4.gdlr-core-pbf-wrapper.home-newsletter-section {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	
+	.home-newsletter-section .gdlr-core-pbf-wrapper-full-no-space {
+		max-width: 100% !important;
+	}
+	
+	.home-newsletter-section .gdlr-core-pbf-wrapper-full-no-space .gdlr-core-pbf-column-content-margin {
+		margin: 0 !important;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	
+	.home-newsletter-section .gdlr-core-text-box-item-content {
+		font-size: 14px !important;
+	}
+	
+	.mediz-footer-wrapper,
+	.mediz-footer-wrapper .widget.widget_nav_menu ul li {
+		font-size: 14px !important;
+	}
+	
+	.mediz-footer-wrapper .mediz-widget-title {
+		font-size: 20px !important;
+		margin-bottom: 15px !important;
+	}
+	
+	.mediz-footer-wrapper .mediz-footer-container .mediz-footer-column:last-child .widget {
+		width: 100%;
+		min-width: inherit;
+	}
+	
+	.mediz-copyright-wrapper .mediz-copyright-text {
+		font-size: 11px !important;
+		text-align: left;
+	}
+	
+	#gdlr-core-wrapper-1.gdlr-core-pbf-wrapper.about-hospital-block {
+		padding-top: 50px !important;
+		padding-bottom: 10px !important;
+	}
+	
+	.about-hospital-block .gdlr-core-pbf-column.gdlr-core-column-40 {
+		padding-left: 0;
+	}
+	
+	.communities-block .gdlr-core-pbf-column.gdlr-core-column-10 .gdlr-core-pbf-column-content-margin {
+		padding: 0 !important;
+	}
+	
+	.communities-block h3.gdlr-core-title-item-title {
+		font-size: 32px !important;
+	}
+	
+	.communities-block .gdlr-core-title-item-caption {
+		font-size: 16px !important;
+	}
+	
+	.services-stats-block.gdlr-core-pbf-wrapper {
+		padding-top: 25px !important;
+		padding-bottom: 40px !important;
+	}
+	
+	.services-stats-block.gdlr-core-pbf-wrapper .dh-patint-counter {
+		margin-top: 0 !important;
+	}
+	
+	.services-stats-block .gdlr-core-button.gdlr-core-button-gradient {
+		font-size: 12px !important;
+		padding: 12px 15px !important;
+	}
+	
+	#gdlr-core-wrapper-1.subpages-banner.gdlr-core-pbf-wrapper {
+	  padding-top: 60px !important;
+	  padding-bottom: 140px !important;
+	}
+	
+	.subpages-banner h3.gdlr-core-title-item-title {
+		font-size: 35px !important;
+	}
+	
+	.mission-section .gdlr-core-container-custom {
+		max-width: 100% !important;
+	}
+	
+	.mission-section .gdlr-core-pbf-column.gdlr-core-column-first .gdlr-core-pbf-column-content-margin {
+		padding-top: 60% !important;
+	}
+	
+	.mission-section .gdlr-core-pbf-background.gdlr-core-parallax {
+		background-position: center center !important;
+	}
+	
+	.mission-section #gdlr-core-column-2 .gdlr-core-pbf-column-content-margin {
+	  padding: 25px 15px 0 !important;
+	}
+	
+	.vision-section-head .gdlr-core-text-box-item-content,
+	.values-section .gdlr-core-text-box-item-content {
+		font-size: 16px !important;
+		line-height: 1.7 !important;
+	}
+	
+	.vision-section h3.gdlr-core-title-item-title {
+		line-height: 1.5 !important;
+	}
+	
+	.vision-section #gdlr-core-column-4 .gdlr-core-pbf-column-content-margin {
+		padding: 30px 20px !important;
+	}
+	
+	.vision-section .gdlr-core-pbf-wrapper-full-no-space .gdlr-core-pbf-column-content-margin {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+	
+	.values-boxes-section .gdlr-core-container {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	
+	.values-boxes-section .gdlr-core-container .gdlr-core-pbf-column {
+		width: 50% !important;
+	}
+	
+	.values-boxes-section .gdlr-core-container .gdlr-core-pbf-column-content-margin {
+		padding: 23px 15px 15px !important;
+	}
+	
+	#gdlr-core-wrapper-1.subpages-banner.small-banner.gdlr-core-pbf-wrapper {
+		padding: 55px 0 !important;
+	}
+	
+	.message-block .gdlr-core-pbf-wrapper-full-no-space {
+		max-width: 100%;
+	}
+	
+	.message-block #gdlr-core-column-2 .gdlr-core-pbf-column-content-margin {
+		padding: 35px 15px !important;
+	}
+	
+	.message-block .gdlr-core-pbf-column.gdlr-core-column-first .gdlr-core-pbf-column-content-margin {
+		padding: 100% 0 0 !important;
+	}
+	
+	.leadership-section .gdlr-core-text-box-item-content {
+		font-size: 16px !important;
+	}
+	
+	.testimonials-section #gdlr-core-column-2 .gdlr-core-pbf-column-content-margin {
+		padding: 30px 15px !important;
+	}
+	
+	.testimonials-section .quote-section .gdlr-core-blockquote-item-quote {
+		font-size: 80px !important;
+		margin: 0 !important;
+		height: auto !important;
+	}
+	
+	.testimonials-section .quote-section .gdlr-core-blockquote > div:last-child {
+		margin-right: 0 !important;
+	}
+	
+	.testimonials-section .quote-section .gdlr-core-blockquote-item-author {
+		padding-right: 60px;
+	}
+	
+	.testimonials-section .quote-section .gdlr-core-blockquote-item-content {
+		font-size: 16px !important;
+	}
+	
+	.testimonials-section .gdlr-core-blockquote-item .gdlr-core-blockquote-item-author-name:after {
+		display: none !important;
+	}
+	
+	.flipboxes-section .gdlr-core-container {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	
+	.flipboxes-section.gdlr-core-pbf-wrapper {
+		padding: 30px 0 !important;
+	}
+	
+	#gdlr-core-wrapper-2.flipboxes-section.gdlr-core-pbf-wrapper {
+		padding-top: 30px !important;
+	}
+	
+	.flipboxes-section .gdlr-core-pbf-column {
+		width: 100%;
+	}
+	
+	.board-block-items .gdlr-core-container {
+		margin-left: -10px; 
+		margin-right: -10px;
+	}
+	
+	.board-block-items #gdlr-core-column-4 .gdlr-core-pbf-column-content-margin,
+	.board-block-items #gdlr-core-column-5 .gdlr-core-pbf-column-content-margin,
+	.board-block-items #gdlr-core-column-6 .gdlr-core-pbf-column-content-margin,
+	.board-block-items #gdlr-core-column-8 .gdlr-core-pbf-column-content-margin,
+	.board-block-items #gdlr-core-column-9 .gdlr-core-pbf-column-content-margin,
+	.board-block-items #gdlr-core-column-10 .gdlr-core-pbf-column-content-margin {
+		padding: 0 !important;
+	}
+	.care-section .gdlr-core-text-box-item-content h2 {
+    font-size: 24px !important;
+}
+	.specialities-quote-wrapper .gdlr-core-blockquote-item-content-wrap span.number-highlighted {
+    font-size: 30px;
+}
+	.specialities-quote-wrapper .gdlr-core-blockquote-item-content-wrap p {
+    font-size: 26px;
+}
+	.specialities-quote-wrapper .gdlr-core-pbf-column-content-margin gdlr-core-js {
+    padding: 30px 25px 10px  !important;
+}
+	.column-disease {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+	.find-specialist-section{
+		padding 70px 0 65px !important;
+	}
+	.find-specialist-section h3.gdlr-core-skin-title {
+		font-size: 30px !important;
+	}
+	.find-specialist-section .gdlr-core-pbf-element:nth-child(2) h3.gdlr-core-skin-title {
+    font-size: 20px !important;
+}
+	.find-specialist-section span.gdlr-core-skin-caption {
+    font-size: 24px !important;
+}
+	.find-specialist-section h4.gdlr-core-skin-title{
+				font-size: 18px !important;
+}
+	.request-lab-section h3.gdlr-core-skin-title,
+	.certified-counter .gdlr-core-pbf-column-content .gdlr-core-title-item-title{
+		font-size: 26px !important;
+	}
+	.request-lab-section h4.gdlr-core-skin-title{
+		font-size: 16px !important;
+	}
+	.request-lab-section span.gdlr-core-skin-caption{
+		font-size: 16px !important;
+}
+	.request-lab-section .lab-result-online .field-group label {
+     	font-size: 14px !important;  
+}
+	.request-lab-section .lab-result-online .field-group input[type=text], form.lab-result-online .field-group input[type=password] {
+    	font-size: 12px !important;
+}
+	.request-lab-section .gdlr-core-title-item .gdlr-core-title-item-link {
+    	font-size: 22px !important;
+}
+	.request-lab-section.gdlr-core-pbf-column-content-margin.gdlr-core-js.request-lab-section {
+    	padding: 0px 0px 20px  !important;
+}
+	.doctors-block {
+    	padding: 20px 0 10px !important;
+}
+	.doctors-block .gdlr-core-item-pdb,
+	.doctors-block .gdlr-core-title-item{
+		padding-bottom: 20px !important;
+}
+	.doctors-block .gdlr-core-media-image.gdlr-core-image-item-style-rectangle, .doctors-block .gdlr-core-image-item-style-rectangle img {
+    	width: 100% !important;
+}
+	.associations-section h3.gdlr-core-column-service-title.gdlr-core-skin-title {
+    	font-size: 16px !important;
+}
+	.associations-section .icon-list-items.certifications-icon-list-items {
+       min-height: 321px;
+}
+	.request-diagnose .gdlr-core-title-item-title.gdlr-core-skin-title{
+		font-size: 26px !important;
+	}
+	.request-diagnose .gdlr-core-title-item-caption{
+		font-size: 16px;
+	}
+	.request-diagnose .sub-heading .gdlr-core-skin-title{
+    font-size: 14px !important;
+}
+	.request-diagnose .gdlr-core-button-item{
+		margin-top: 30px !important;
+	}
+	.certified-counter .gdlr-core-pbf-column-content .gdlr-core-pbf-element:nth-child(2) .gdlr-core-title-item-title{
+    font-size: 16px !important;
+}
+	.certified-counter .gdlr-core-divider-item{
+		margin-bottom: 40px !important
+	}
+	.contact-strip .gdlr-core-column-service-title-wrap h3 {
+    	color: #fff !important;
+}
+	.request-lab-section .gdlr-core-button {
+    font-size: 11px !important;
+}
+	.reports-login h3.gdlr-core-skin-title, .certified-counter .gdlr-core-pbf-column-content .gdlr-core-title-item-title {
+    	font-size: 18px !important;
+}
+	.request-lab-section .sub-heading h3.gdlr-core-skin-title {
+    	font-size: 18px !important;
+}
+	.reports-login p {
+    	font-size: 14px !important;
+}
+	.reports-login form.patient-report-form input[type=text] {
+    font-size: 11px;   
+}
+	.gallery-insurance-panels .gdlr-core-item-list {
+    	width: 50%;
+}
+	.bg-box-section-wrapper .gdlr-core-pbf-column-content-margin {
+    	padding: 20px !important;
+    	margin: 20px 0 !important;
+}
+	.blogs-grid-module .gdlr-core-item-list {
+    	width: 100%;
+}
+	.bg-box-section-wrapper div.gdlr-core-pbf-column .gdlr-core-pbf-column-content-margin {
+   	 align-items: center;
+}
+	.subscribe-our-newsletter-col form.es_subscription_form input.es_required_field.es_txt_email {
+    	margin: 0;
+}
+	.page-id-9589 h2 {
+    	font-size: 30px !important;
+}
+
+	.employee-benefit h3.gdlr-core-title-item-title{
+		font-size: 24px !important;
+	}
+	.employee-benefit p{
+		font-size: 14px !important;
+	}
+	.career-job-post h3 {
+    	font-size: 14px !important;
+}
+	.career-job-post h3 span {
+    	font-size: 11px !important;
+}
+	.contact-form h3 {
+    	font-size: 28px !important;
+}
+	.contact-form span {
+    	font-size: 16px !important;
+}
+	.contact-form .gdlr-core-large input:not([type=button]):not([type=submit]):not([type=file]), .gdlr-core-input-wrap.gdlr-core-large select {
+    font-size: 12px;
+    	padding: 14px 18px 16px !important;
+}
+	.contact-form {
+    	padding: 60px 0 0 !important;
+}
+	.contact-form .gdlr-core-input-wrap.gdlr-core-large textarea {
+    	font-size: 12px;
+    	padding: 14px 18px !important;
+		height: 125px !important;
+}
+	.contact-info .gdlr-core-pbf-column-content-margin{
+		padding: 20px 10px 0px 10px !important;
+	}
+	.contact-info h3{
+		font-size: 20px !important;
+	}
+	.contact-info .gdlr-core-icon-item.gdlr-core-item-pdlr {
+    padding-bottom: 25px !important;
+}
+	.banner-section h3{
+		font-size: 28px !important;
+	}
+	
+	.banner-section span{
+		font-size: 18px !important;
+	}
+	.map-location .gdlr-core-page-builder-body p {
+    	width: 100%;
+    
+}
+	.technology-section h2 {
+    	font-size: 26px !important;
+}
+	.page-id-9600 .gdlr-core-column-service-title-wrap a h3 {
+    font-size: 14px !important;
+}
+	.page-id-9600 .gdlr-core-column-service-media.gdlr-core-media-image {
+    	max-width: 100px !important;
+}
+	.page-id-9600 .gdlr-core-pbf-column-content-margin.gdlr-core-js,
+	.page-id-9597 .gdlr-core-pbf-column-content-margin.gdlr-core-js {
+    	padding: 0px 0px 25px 0px !important;
+}
+	.speciality-wrapper .gdlr-core-blockquote-item-content-wrap p {
+    font-size: 16px;
+}
+	.speciality-wrapper .gdlr-core-blockquote-item-content-wrap span.number-highlighted {
+    font-size: 26px;
+}
+	.speciality-wrapper #gdlr-core-column-21 .gdlr-core-pbf-column-content-margin{
+    	padding: 20px 5px 0 !important;
+}
+	.speciality-wrapper #gdlr-core-column-22 .gdlr-core-pbf-column-content-margin {
+		padding: 0 5px 20px !important;
+	}
+	
+	h1.mediz-page-title {
+    font-size: 30px !important;
+}
+	h1.mediz-page-title span {
+    font-size: 16px !important;
+}
+	.gdlr-core-pbf-wrapper.contact-strip h3 {
+    	font-size: 16px !important;
+}
+	.contact-strip .gdlr-core-column-service-caption{
+    	font-size: 14px !important;
+}
+	.topnav input.search-list-item {
+    width: 50%;
+}
+	.request-cards .gdlr-core-pbf-column-content.clearfix.gdlr-core-js {
+    	height: auto;
+}
+	
+	.specialities-quote-wrapper #gdlr-core-column-5 .gdlr-core-pbf-column-content-margin {
+		padding: 15px 5px 0 5px !important;
+	}
+	
+	.specialities-quote-wrapper #gdlr-core-column-6 .gdlr-core-pbf-column-content-margin {
+		padding: 0 5px 20px !important;
+	}
+	
+	.specialities-quote-wrapper .number-highlighted {
+		font-size: 30px !important;
+	}
+	
+	.gallery-insurance-panels .gdlr-core-gallery-item-holder {
+		margin-left: -5px;
+		margin-right: -5px;
+	}
+	
+	.gallery-insurance-panels .gdlr-core-item-list {
+		width: calc(50% - 10px);
+	}
+	.gdlr-core-pbf-section:first-child {
+    	padding-top: 50px;
+}
+	.page-id-9589 .gdlr-core-column-15 {
+    	width: calc(50% - 10px) !important;
+    	margin: 0 5px 10px;
+	}
+}
+@media (max-width: 680px) {
+	.mediz-main-menu-search i {
+		font-size: 20px !important;
+	}
+	
+	.mediz-mobile-menu {
+		margin-left: 20px !important;
+	}
+}
+
+@media (max-width: 575px) {
+	.mediz-footer-wrapper .mediz-footer-container .mediz-footer-column {
+		padding: 0 !important;
+		width: 100%;
+	}
+	
+	.values-boxes-section .gdlr-core-container .gdlr-core-pbf-column {
+		width: 100% !important;
+	}
+		.gallery-insurance-panels .gdlr-core-item-list {
+/* 		width: 100%; */
+		
+}
+	.gallery-insurance-panels .gdlr-core-gallery-list.gdlr-core-media-image {
+	/*     	width: 280px;
+			margin: 0 auto; */
+	}
+	.page-id-9852 .gdlr-core-column-15 {
+    	width: 100%;
+    	margin: 0 0 20px;
+	}
+}
+
+@media (max-width: 479px) {	
+	.home-our-services-section .gdlr-core-column-20 {
+		width: 100%;
+	}
+	
+	.flipboxes-section .gdlr-core-flipbox .gdlr-core-flipbox-front, 
+	.flipboxes-section .gdlr-core-flipbox .gdlr-core-flipbox-back {
+		padding: 25px 20px;
+	}
+	
+	.flipboxes-section .gdlr-core-flipbox .gdlr-core-flipbox-frame {
+		margin: 10px;
+	}
+	
+	.gallery-insurance-panels .gdlr-core-item-list img {
+		transform: scale(1.2);
+	}
+	.page-id-9589 .gdlr-core-column-15 {
+    	width: 100%;
+    	margin: 0 10px 10px;
+	}
+}
+
+/* Page Our Doctors */
+
+@media (min-width: 1024px) {
+	.our-doctors-list .gdlr-core-personnel-item {
+		display: flex;
+	}
+	.our-doctors-list .gdlr-core-personnel-item:after,
+	.our-doctors-list .gdlr-core-personnel-item:before{
+		display: none
+	}
+}

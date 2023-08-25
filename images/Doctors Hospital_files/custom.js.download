@@ -1,0 +1,29 @@
+var rows = jQuery('.services-section');
+jQuery("form.item-search-form").submit(function(e){
+    e.preventDefault();
+    var inputVal = jQuery.trim(jQuery("form.item-search-form input#post_title").val()).replace(/ +/g, ' ').toLowerCase();
+	rows.show().filter(function() {
+        var text = jQuery(this).text().replace(/\s+/g, ' ').toLowerCase();
+        return !~text.indexOf(inputVal);
+    }).hide();
+});
+
+//
+jQuery(".quote-section .gdlr-core-blockquote .gdlr-core-blockquote-item-quote.gdlr-core-quote-font.gdlr-core-skin-icon").clone().appendTo(".quote-section .gdlr-core-blockquote");
+
+//
+jQuery(".gdlr-core-column-service-item.icon-list-items").each(function(){
+    var read_more_url = jQuery(this).find(".gdlr-core-column-service-content-wrapper .gdlr-core-column-service-content a.gdlr-core-column-service-read-more").attr("href");
+    jQuery(this).find(".gdlr-core-column-service-content-wrapper .gdlr-core-column-service-title-wrap h3.gdlr-core-column-service-title.gdlr-core-skin-title").wrap("<a href='"+read_more_url+"'></a>");
+    jQuery(this).find(".gdlr-core-column-service-media.gdlr-core-media-image img").wrap("<a href='"+read_more_url+"'></a>");                                                                                                                                                           
+});
+
+// Diagnostics Select Box
+
+jQuery(document).ready(function() {
+    jQuery('.diagnostics-select-box').select2();
+});
+
+jQuery(document).on('select2:open', () => {
+	document.querySelector('.select2-search__field').focus();
+});

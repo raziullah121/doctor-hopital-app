@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/sytle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ---------------------------------------------------Navbar section ------------------------------ -->
+
+    <section class="navbar-section">
+        <div class="container-fluid" id="top-nav-id" style="box-shadow: 2px 12px 9px -1px rgba(0,0,0,0.72);
+        -webkit-box-shadow: 2px 12px 9px -1px rgba(247, 244, 244, 0.72);
+        -moz-box-shadow: 2px 12px 9px -1px rgba(231, 230, 230, 0.72);">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                        <ul class="navbar-nav ms-auto mb-lg-0 top-navbar" id="top-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"> <i
+                                        class="fa-regular fa-clock me-2"></i>Hospital Timing 7x24</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-phone me-2"></i> +923348802927</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-regular fa-envelope me-2"></i>
+                                    raziullah.icp@gmail.com</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass mx-2"
+                                        id="seach-icon"></i></a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex">
+
+                            <button class="btn " type="submit" id="contact-btn">Contact Us</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="/images/navbar-logo.png" id="nav-logo" alt=""></a>
+                    <button class="navbar-toggler collapsed d-flex d-lg-none flex-column" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="toggler-icon top-bar"></span>
+                        <span class="toggler-icon middle-bar"></span>
+                        <span class="toggler-icon bottom-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/pages/index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    About Us
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/pages/whoAreWe.html">Who Are We</a></li>
+                                    <li><a class="dropdown-item" href="/pages/misionAndValue.html">Mission, Vision, Value</a></li>
+                                    <li><a class="dropdown-item" href="#">CEO Message</a></li>
+                                    <li><a class="dropdown-item" href="#">Chair Message</a></li>
+                                    <li><a class="dropdown-item" href="#">Executive Team</a></li>
+                                    <li><a class="dropdown-item" href="#">DHMC Facilities</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Care & Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Find a Doctor</a></li>
+                                    <li><a class="dropdown-item" href="#">Medical Soecialities</a></li>
+                                    <li><a class="dropdown-item" href="#">Medical Soecialities</a></li>
+                                    <li><a class="dropdown-item" href="#">Surgical Soecialities</a></li>
+                                    <li><a class="dropdown-item" href="#">Daignostics</a></li>
+                                    <li><a class="dropdown-item" href="#">Hospital Services</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pateints & Families
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Patient Rights & Responsiblities</a></li>
+                                    <li><a class="dropdown-item" href="#">Visited Guide</a></li>
+                                    <li><a class="dropdown-item" href="#">Registered Insurance Panels/a></li>
+                                    <li><a class="dropdown-item" href="#">Patient Support</a></li>
+                                    <li><a class="dropdown-item" href="#">Health & Wealth</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Media Centre
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">News & Events</a></li>
+                                    <li><a class="dropdown-item" href="#">DHMC Youtube Channel</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Careers</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------------------Navbar section End ------------------------------ -->
+
+    <!-- ---------------------------------------------------About Doctor section  ------------------------------ -->
+
+    <section class="about-doctor">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="about-doctor-left">
+                        <h3>About Doctors Hospital</h3>
+                        <p>The Leading Healthcare Provider in Pakistan</p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="about-doctor-right">
+                        <p class="p1">Located in the heart of Lahore, Doctors Hospital & Medical Centre is an
+                            internationally renowned 250-bed tertiary care multi-specialty hospital and a healthcare
+                            provider. The Hospital is a modern facility with sub-specialized Medical, Surgical,
+                            Obstetrics & Gynaecology, and Paediatric departments complemented by state-of-the-art
+                            anesthesia, radiological, and laboratory services.</p>
+                        <p class="p2">DHMC first started its services in the year 2000, when a group of leading medical
+                            specialists based in the United States decided to bring their medical expertise back to
+                            their country of origin. What started as an idea in a Pennsylvania retreat later became a
+                            beacon of healthcare excellence in Pakistan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------------------About Doctor section End --------------------------- -->
+
+    <!-- ------------------------------------------------DHMC about service -------------------------------  -->
+
+    <section class="DHMC-about-service">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="dhmc-left">
+                        <img src="/images/patient.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="dhmc-right">
+                        <h1>
+                            DHMC
+                        </h1>
+                        <h3>In-Service of the People</h3>
+                        <p class="para1">The primary objective behind the hospital’s inception and initiation of
+                            services was and always has been to <span> “serve” </span>our patients and community.
+                        </p>
+                        <p class="para2">
+                            Our initiative runs beyond medicine. We want good health and quality of life for every
+                            child, adult, and older adult in Pakistan. DHMC stands for accessible and cost-efficient
+                            healthcare services for all Pakistanis. At DHMC, we not only strive for health equality but
+                            health equity as well. We believe in equal access to health services to those in equal need
+                            of it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------------DHMC about service End -------------------------------  -->
+
+    <section class="dhmc-moving">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="dhmc-moving-left">
+                        <h1 class="my-3">DHMC</h1>
+                        <h3>Moving Beyond Traditional Healthcare Services</h3>
+                        <p class="p1">
+                            As a pioneer of innovative healthcare practices in Pakistan, Doctors Hospital & Medical
+                            Centre
+                            (DHMC) has a tradition of providing high-quality medical care to its community while
+                            maintaining
+                            its prime focus on continuous quality improvement.
+                        </p>
+                        <p class="p2">
+                            DHMC consistently invests in the latest health technology advancements to provide
+                            high-quality
+                            care to our patients while simultaneously pursuing innovation in our clinical outcomes,
+                            infrastructure, and staff development.
+                        </p>
+                        <p class="p2">
+                            With highly experienced and dedicated American & British Board-Certified doctors,
+                            well-trained
+                            nurses, and skilled paramedical staff, Doctors Hospital & Medical Centre strives to take
+                            healthcare to a level of service delivery not seen before in the country.
+                        </p>
+                        <p class="p2">
+                            The hospital aims to become a destination of choice by ensuring high-quality healthcare
+                            services
+                            through its professionalism, ethical conduct, adherence to high standards of care, patient
+                            safety, and an inclusive work environment.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="dhmc-moving-img">
+                        <img src="/images/dhmc-moving.jpg" class="img-fluid" style="padding-left: 40px;" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 center-div">
+                    <div class="moving-last-text text-center">
+                        <h2>
+                            Our Impact on Communities
+                        </h2>
+                        <p>Doctors Hospital & Medical Center (DHMC) has proudly served the country for more than 2
+                            decades as a healthcare provider and leader. Here is how we are contributing.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------- patients cared and Procedures------------------------------  -->
+
+    <section class="patient-cared">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="patient-cared-annually">
+                        <h1 class="care d-inline"> 37000 </h1><span class="plus">+</span> 
+                        <h3 class="care-procedure">Patients Cared for Annually</h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="patient-procedures-annually">
+                        <h1 class="care d-inline">6000</h1> <span class="plus">+</span>
+                        <h3 class="care-procedure">Procedures Performed Annually</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="learn-more-about">
+                        <h3 class="dhmc-approaches"><a href="http://doctorshospitalnew23.azurewebsites.net/doctors-hospital-services-treatments/">
+                            Learn More About How DHMC Approaches Different Healthcare Services <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ------------------------------------------- Our Details -------------------------------------------  -->
+
+    <section class="our-details">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="last-logo-div py-5">
+                        <img src="/images/navbar-logo.png" id="logo-details" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-12 col-sm-12">
+                    <div class="about-our-details">
+                        <h3>About Us</h3>
+                        <p>Founded in 2000, Doctors Hospital is an internationally renowned 250-bed hospital located in
+                            Lahore, Pakistan. For more than 18 years we have been fulfilling the medical needs of our
+                            community with our staff of American & British Board Certified specialists.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="our-services-details">
+                        <h3>Our Services</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Primary Care</a></li>
+                            <li><a href="#">Surgical Services</a></li>
+                            <li><a href="#">Women’s Health</a></li>
+                            <li><a href="#">Heart & Vascular Services</a></li>
+                            <li><a href="#">Gastrointestinal Health</a></li>
+                            <li><a href="#">Spine & Ortho</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="contact-details">
+                        <h3>Contact Us</h3>
+                        <p>To make an appointment at Doctors Hospital please use the contact details given below.</p>
+                        <a href=""><i class="fa-solid fa-phone me-2" style="color:#113377"></i> </a>042 111 223 377
+                        <div class="social-details">
+                            <ul class="d-flex list-unstyled">
+                                <li><a href="www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="quick-links">
+                        <h3>Quick Links</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="">Visit Our Blog</a></li>
+                            <li><a href="">COVID-19 Services</a></li>
+                            <li><a href="">Diagnostics Lab</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------------- Footer section ----------------------------------------  -->
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-div text-center my-5">
+                        <p>COPYRIGHT 2023 @DOCTORS HOSPITAL PAKISTAN | DOCTORS HOSPITAL LABS PAKISTAN. ALL RIGHTS
+                            RESERVED</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+        integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
